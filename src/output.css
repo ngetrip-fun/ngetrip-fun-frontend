@@ -1128,12 +1128,12 @@ video {
   border-color: rgb(241 241 241 / var(--tw-border-opacity));
 }
 
-.border-patungan-border {
+.border-ngetrip-border {
   --tw-border-opacity: 1;
   border-color: rgb(220 223 230 / var(--tw-border-opacity));
 }
 
-.border-patungan-orange\/10 {
+.border-ngetrip-orange\/10 {
   border-color: rgb(226 85 32 / 0.1);
 }
 
@@ -1156,7 +1156,7 @@ video {
   background-color: rgb(217 217 217 / var(--tw-bg-opacity));
 }
 
-.bg-patungan-bg-grey {
+.bg-ngetrip-bg-grey {
   --tw-bg-opacity: 1;
   background-color: rgb(246 247 249 / var(--tw-bg-opacity));
 }
@@ -1179,7 +1179,7 @@ video {
   background-color: rgb(255 120 12 / 0.1);
 }
 
-.bg-patungan-yellow {
+.bg-ngetrip-yellow {
   --tw-bg-opacity: 1;
   background-color: rgb(254 208 73 / var(--tw-bg-opacity));
 }
@@ -1519,7 +1519,7 @@ video {
   color: rgb(226 185 187 / var(--tw-text-opacity));
 }
 
-.text-patungan-grey {
+.text-ngetrip-grey {
   --tw-text-opacity: 1;
   color: rgb(117 124 152 / var(--tw-text-opacity));
 }
@@ -1573,7 +1573,7 @@ video {
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
 
-.ring-patungan-border {
+.ring-ngetrip-border {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(220 223 230 / var(--tw-ring-opacity));
 }
@@ -1632,17 +1632,17 @@ body{
   /* Space between the texts */
 }
 
-.placeholder\:text-patungan-black::-moz-placeholder {
+.placeholder\:text-ngetrip-black::-moz-placeholder {
   --tw-text-opacity: 1;
   color: rgb(23 12 54 / var(--tw-text-opacity));
 }
 
-.placeholder\:text-patungan-black::placeholder {
+.placeholder\:text-ngetrip-black::placeholder {
   --tw-text-opacity: 1;
   color: rgb(23 12 54 / var(--tw-text-opacity));
 }
 
-.last\:text-patungan-black:last-child {
+.last\:text-ngetrip-black:last-child {
   --tw-text-opacity: 1;
   color: rgb(23 12 54 / var(--tw-text-opacity));
 }
@@ -1657,12 +1657,12 @@ body{
   --tw-ring-color: rgb(2 101 107 / var(--tw-ring-opacity));
 }
 
-.focus-within\:border-patungan-orange:focus-within {
+.focus-within\:border-ngetrip-orange:focus-within {
   --tw-border-opacity: 1;
   border-color: rgb(226 85 32 / var(--tw-border-opacity));
 }
 
-.hover\:text-patungan-black:hover {
+.hover\:text-ngetrip-black:hover {
   --tw-text-opacity: 1;
   color: rgb(23 12 54 / var(--tw-text-opacity));
 }
@@ -1671,7 +1671,7 @@ body{
   height: 2.75rem !important;
 }
 
-.has-\[\:checked\]\:border-patungan-orange\/10:has(:checked) {
+.has-\[\:checked\]\:border-ngetrip-orange\/10:has(:checked) {
   border-color: rgb(2 101 107 / 0.1);
 }
 
