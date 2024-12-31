@@ -1385,8 +1385,8 @@ video {
   text-align: center;
 }
 
-.font-grifter {
-  font-family: Grifter-Bold;
+.font-newbrug {
+  font-family: newbrug-Bold;
 }
 
 .font-\[\'Inter\'\] {
@@ -1605,9 +1605,9 @@ video {
 }
 
 @font-face {
-  font-family: "Grifter-Bold";
+  font-family: "newbrug-Bold";
 
-  src: url("assets/fonts/Grifter/grifterbold.otf") format("opentype");
+  src: url("assets/fonts/newbrug/newbrugbold.otf") format("opentype");
 }
 
 body{
