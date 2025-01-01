@@ -1,37 +1,40 @@
 <!doctype html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./output.css" rel="stylesheet">
+    <link href="./styles/output.css" rel="stylesheet">
+    <link href="./styles/responsive.css" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Russo+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <nav class="relative w-full max-w-[1280px] mx-auto h-[140px]">
-        <div class="fixed top-10 w-full max-w-[1280px] px-16 z-20">
-            <div class="flex items-center w-full max-w-[1280px] h-[100px] mx-auto rounded-full p-5 pl-9 justify-between bg-white shadow-[0px_23px_35px_0px_#0C0F2405]">
+    <nav class="relative hp-top-unset top-10 w-full max-width mx-auto hp-h-100px h-[140px]">
+        <div class="fixed w-full max-width p-unset px-16 z-20">
+            <div class="flex items-center w-full max-width h-[100px] mx-auto rounded-full p-8 justify-between bg-white shadow-[0px_23px_35px_0px_#0C0F2405]">
                 <a href="index.html">
                     <img src="assets/images/logos/logo.svg" class="h-10 flex shrink-0" alt="logo">
                 </a>
-                <ul class="flex items-center gap-8">
+                <ul class="hp-none flex f-col items-center gap-8">
                     <li>
-                        <a href="#" class="font-semibold text-lg leading-[22.68px] text-ngetrip-grey">Layanan</a>
+                        <a href="#Products" class="font-semibold text-lg leading-[22.68px] text-ngetrip-grey">Layanan</a>
                     </li>
                     <div class="h-[18px] border-[1.5px] border-ngetrip-border"></div>
                     <li>
-                        <a href="#" class="font-semibold text-lg leading-[22.68px] text-ngetrip-grey">Cara Pesan</a>
+                        <a href="#How-It-Works" class="font-semibold text-lg leading-[22.68px] text-ngetrip-grey">Cara Pesan</a>
                     </li>
                     <div class="h-[18px] border-[1.5px] border-ngetrip-border"></div>
                     <li>
-                        <a href="#" class="font-semibold text-lg leading-[22.68px] text-ngetrip-grey">Testimoni</a>
+                        <a href="#Happy-Customer" class="font-semibold text-lg leading-[22.68px] text-ngetrip-grey">Testimoni</a>
                     </li>
                     <div class="h-[18px] border-[1.5px] border-ngetrip-border"></div>
                     <li>
-                        <a href="#" class="font-semibold text-lg leading-[22.68px] text-ngetrip-grey">FAQ</a>
+                        <a href="#FAQ" class="font-semibold text-lg leading-[22.68px] text-ngetrip-grey">FAQ</a>
                     </li>
                 </ul>
                 <a href="view-booking.html" class="flex items-center rounded-full border border-ngetrip-orange/10 bg-ngetrip-green/10 h-[60px] px-9 gap-[6px]">
@@ -41,56 +44,55 @@
             </div>
         </div>
     </nav>
-    <header class="flex flex-col items-center py-[100px] w-full max-w-[1280px] mx-auto px-16">
+    <header class="flex flex-col items-center w-full max-width mx-auto p-50 p-100">
         <div id="Badge" class="flex items-center w-fit rounded-full p-2 pr-6 gap-3 bg-ngetrip-black">
             <img src="assets/images/photos/Profiles.png" class="h-9 flex shrink-0" alt="icon">
             <p class="font-semibold leading-5 text-white"><span class="font-extrabold">16.500+</span> Users Has Joined 🔥 </p>
         </div>
         <h1 class="font-grifter text-[62px] text-center mt-[42px] flex justify-center flex-wrap">
-            <span class="!block">Patungan Akun</span> 
+            <span class="!block">Ngetrip pakai </span>
             <!-- animation from javascript -->
             <span id="slider-container" class="text-nowrap !block overflow-hidden ml-6 relative z-10">
                 <span id="slider" class="absolute flex transition-all duration-500 z-10">
-                    <span class="bg-clip-text text-transparent bg-[linear-gradient(90deg,#02656B_0%,#FF8000_100%)] whitespace-nowrap">Streaming,</span>
-                    <span class="bg-clip-text text-transparent bg-[linear-gradient(90deg,#02656B_0%,#FF8000_100%)] whitespace-nowrap">Education,</span>
-                    <span class="bg-clip-text text-transparent bg-[linear-gradient(90deg,#02656B_0%,#FF8000_100%)] whitespace-nowrap">Music,</span>
-                </span>
-            </span> 
-            <span class="!block w-full">Hemat Tanpa Batas</span>
+                    <span class="bg-clip-text text-transparent bg-[linear-gradient(90deg,#02656B_0%,#FF8000_100%)] whitespace-nowrap">Kapal,</span>
+            <span class="bg-clip-text text-transparent bg-[linear-gradient(90deg,#02656B_0%,#FF8000_100%)] whitespace-nowrap">Kereta,</span>
+            <span class="bg-clip-text text-transparent bg-[linear-gradient(90deg,#02656B_0%,#FF8000_100%)] whitespace-nowrap">Pesawat,</span>
+            </span>
+            </span>
+            <span class="!block w-full">Menjadi lebih seru</span>
         </h1>
         <p class="font-medium text-lg text-center text-ngetrip-grey">
-            Collective premium subscription purchases for affordability. <br>
-            Group subscription for discounted premium access
+            Collective premium subscription purchases for affordability. <br> Group subscription for discounted premium access
         </p>
         <div class="flex items-center justify-center gap-6 mt-16">
             <a href="#" class="flex items-center rounded-full h-[60px] w-fit px-9 gap-[6px] bg-ngetrip-green">
                 <span class="font-bold text-lg leading-5 text-white">Pesan Sekarang</span>
                 <img src="assets/images/icons/arrow-right-white.svg" class="w-6 flex shrink-0" alt="icon">
             </a>
-            <a href="#" class="flex items-center rounded-full h-[60px] w-fit px-9 gap-[6px] bg-white border border-ngetrip-border">
+            <a href="#How-It-Works" class="flex items-center rounded-full h-[60px] w-fit px-9 gap-[6px] bg-white border border-ngetrip-border">
                 <span class="font-bold text-lg leading-5">Lihat Cara Pesan</span>
             </a>
         </div>
     </header>
-    <section id="Stats" class="w-full flex justify-center bg-ngetrip-black">
-        <div class="flex items-center gap-8 w-full max-w-[1280px] px-16 py-[42px]">
-            <div class="flex flex-col w-[222px] gap-[6px] text-center">
-                <p class="font-grifter font-bold text-[42px] leading-[44px] text-white">2.209+</p>
+    <section id="Stats" class="max-width w-full flex justify-center bg-ngetrip-black">
+        <div class="grid-four flex justify-center items-center gap-8 w-full max-width hp-px-16 py-[42px]">
+            <div class="flex flex-col gap-[6px] text-center">
+                <p class="font-grifter font-bold text-[42px] text-white">2.209+</p>
                 <p class="font-medium text-xl leading-[25px] text-ngetrip-violet">Total User</p>
             </div>
-            <img src="assets/images/icons/star-divider-white.svg" class="w-6 flex shrink-0" alt="icon">
-            <div class="flex flex-col w-[222px] gap-[6px] text-center">
-                <p class="font-grifter font-bold text-[42px] leading-[44px] text-white">9/10</p>
+            <img src="assets/images/icons/star-divider-white.svg" class="w-6 flex shrink-0 hp-none" alt="icon">
+            <div class="flex flex-col gap-[6px] text-center">
+                <p class="font-grifter font-bold text-[42px] text-white">9/10</p>
                 <p class="font-medium text-xl leading-[25px] text-ngetrip-violet">Happy Client</p>
             </div>
-            <img src="assets/images/icons/star-divider-white.svg" class="w-6 flex shrink-0" alt="icon">
-            <div class="flex flex-col w-[222px] gap-[6px] text-center">
-                <p class="font-grifter font-bold text-[42px] leading-[44px] text-white">12</p>
+            <img src="assets/images/icons/star-divider-white.svg" class="w-6 flex shrink-0 hp-none" alt="icon">
+            <div class="flex flex-col gap-[6px] text-center">
+                <p class="font-grifter font-bold text-[42px] text-white">12</p>
                 <p class="font-medium text-xl leading-[25px] text-ngetrip-violet">Total Services</p>
             </div>
-            <img src="assets/images/icons/star-divider-white.svg" class="w-6 flex shrink-0" alt="icon">
-            <div class="flex flex-col w-[222px] gap-[6px] text-center">
-                <p class="font-grifter font-bold text-[42px] leading-[44px] text-white">4.920+</p>
+            <img src="assets/images/icons/star-divider-white.svg" class="w-6 flex shrink-0 hp-none" alt="icon">
+            <div class="flex flex-col gap-[6px] text-center">
+                <p class="font-grifter font-bold text-[42px] text-white">4.920+</p>
                 <p class="font-medium text-xl leading-[25px] text-ngetrip-violet">Total Transactions</p>
             </div>
         </div>
@@ -100,7 +102,7 @@
             <img src="assets/images/backgrounds/Ellipse-top.svg" class="absolute top-0 -right-[337px] z-0" alt="eclipse bg">
             <img src="assets/images/backgrounds/Ellipse-bottom.svg" class="absolute bottom-0 -left-[283px] z-0" alt="eclipse bg">
         </div>
-        <section class="Content relative flex flex-col w-full max-w-[1280px] px-16 mx-auto gap-8 py-[100px]">
+        <section class="Content relative flex flex-col w-full max-w-[1280px] hp-px-16 px-16 mx-auto gap-8 py-[100px]">
             <div class="flex items-center justify-between">
                 <div class="flex flex-col gap-5">
                     <h2 class="font-bold text-xl leading-[25px] text-ngetrip-orange">Our Services</h2>
@@ -111,7 +113,7 @@
                     <img src="assets/images/icons/arrow-circle-down-black.svg" class="w-6 flex shrink-0" alt="">
                 </a>
             </div>
-            <div class="grid grid-cols-3 gap-6">
+            <div class="grid hp-grid-cols-2 grid-cols-3 gap-6">
                 <div class="product-card flex flex-col rounded-[32px] overflow-hidden bg-white">
                     <div class="w-full h-[180px] flex shrink-0 bg-[#D9D9D9]">
                         <img src="assets/images/thumbnails/netflix.png" class="w-full h-full object-cover" alt="thumbnails">
@@ -452,7 +454,7 @@
             </button>
         </section>
     </section>
-    <section id="How-It-Works" class="flex py-[100px] w-full max-w-[1280px] mx-auto px-16 gap-6 justify-between">
+    <section id="How-It-Works" class="flex py-[100px] w-full max-w-[1280px] mx-auto hp-px-16 px-16 gap-6 justify-between">
         <div class="relative flex w-full h-[inherit]">
             <div class="sticky top-0 flex flex-col w-full max-w-[510px] gap-[54px] h-fit">
                 <div class="flex flex-col gap-8">
@@ -503,7 +505,7 @@
                         </span>
                         <p class="font-grifter font-bold text-2xl leading-[25px]">Select Product</p>
                     </div>
-                    <p class="font-medium text-lg leading-8 text-ngetrip-grey">Pilih layanan langganan yang ingin Anda patungi. Kami menyediakan berbagai pilihan seperti Netflix, Spotify, dan Disney+ dengan harga terjangkau</p>
+                    <p class="font-medium text-lg leading-8 text-ngetrip-grey">Pilih layanan langganan yang ingin Anda patungi. Kami menyediakan berbagai pilihan seperti Kapal, Kereta, dan Pesawat dengan harga terjangkau</p>
                 </div>
                 <div class="flex w-full h-[232px] overflow-hidden">
                     <img src="assets/images/thumbnails/select-product.png" class="w-full h-full object-cover object-top" alt="icon">
@@ -540,7 +542,7 @@
         </div>
     </section>
     <section id="Payment-Method" class="bg-[linear-gradient(69.16deg,#FFFFFF_0.82%,rgba(255,255,255,0)_52.97%)]">
-        <div class="Content flex flex-col py-[100px] w-full max-w-[1280px] mx-auto px-16 gap-9">
+        <div class="Content flex flex-col py-[100px] w-full max-w-[1280px] mx-auto hp-px-16 px-16 gap-9">
             <div class="flex flex-col items-center text-center">
                 <div class="flex flex-col gap-5">
                     <h2 class="font-bold text-xl leading-[25px] text-ngetrip-orange">Payment Methods</h2>
@@ -567,7 +569,7 @@
         </div>
     </section>
     <section id="Happy-Customer" class="py-[100px] bg-[linear-gradient(180deg,rgba(255,255,255,0.5)_50%,rgba(243,239,245,0)_100%)]">
-        <div class="flex flex-col gap-5 text-center px-16">
+        <div class="flex flex-col gap-5 text-center hp-px-16">
             <h2 class="font-bold text-xl leading-[25px] text-ngetrip-orange">Happy Customers</h2>
             <p class="font-grifter font-bold text-4xl leading-[37px]">Happy Customer Feedback on Our Services</p>
         </div>
@@ -586,7 +588,7 @@
                         </div>
                         <hr class="border-ngetrip-border">
                         <div class="flex flex-col gap-6 justify-between h-full">
-                            <p class="font-semibold leading-[28px]">"Patungan akun di sini terpercaya, gak nyesel! Netflix dan Disney+ lancar jaya, harga terjangkau pula!"</p>
+                            <p class="font-semibold leading-[28px]">"Ngetrip akun di sini terpercaya, gak nyesel! Netflix dan Disney+ lancar jaya, harga terjangkau pula!"</p>
                             <div class="flex items-center gap-[2px]">
                                 <img src="assets/images/icons/Star.svg" class="w-6 flex shrink-0" alt="star">
                                 <img src="assets/images/icons/Star.svg" class="w-6 flex shrink-0" alt="star">
@@ -742,7 +744,7 @@
                         </div>
                         <hr class="border-ngetrip-border">
                         <div class="flex flex-col gap-6 justify-between h-full">
-                            <p class="font-semibold leading-[28px]">"Patungan akun di sini terpercaya, gak nyesel! Netflix dan Disney+ lancar jaya, harga terjangkau pula!"</p>
+                            <p class="font-semibold leading-[28px]">"Ngetrip akun di sini terpercaya, gak nyesel! Netflix dan Disney+ lancar jaya, harga terjangkau pula!"</p>
                             <div class="flex items-center gap-[2px]">
                                 <img src="assets/images/icons/Star.svg" class="w-6 flex shrink-0" alt="star">
                                 <img src="assets/images/icons/Star.svg" class="w-6 flex shrink-0" alt="star">
@@ -852,7 +854,7 @@
                         </div>
                         <hr class="border-ngetrip-border">
                         <div class="flex flex-col gap-6 justify-between h-full">
-                            <p class="font-semibold leading-[28px]">"Bisa nikmatin Spotify dan Disney+ murah banget! Patungan di sini bikin semua jadi mudah dan terpercaya."</p>
+                            <p class="font-semibold leading-[28px]">"Bisa nikmatin Spotify dan Disney+ murah banget! Ngetrip di sini bikin semua jadi mudah dan terpercaya."</p>
                             <div class="flex items-center gap-[2px]">
                                 <img src="assets/images/icons/Star.svg" class="w-6 flex shrink-0" alt="star">
                                 <img src="assets/images/icons/Star.svg" class="w-6 flex shrink-0" alt="star">
@@ -900,7 +902,7 @@
                         </div>
                         <hr class="border-ngetrip-border">
                         <div class="flex flex-col gap-6 justify-between h-full">
-                            <p class="font-semibold leading-[28px]">"Patungan akun di sini terpercaya, gak nyesel! Netflix dan Disney+ lancar jaya, harga terjangkau pula!"</p>
+                            <p class="font-semibold leading-[28px]">"Ngetrip akun di sini terpercaya, gak nyesel! Netflix dan Disney+ lancar jaya, harga terjangkau pula!"</p>
                             <div class="flex items-center gap-[2px]">
                                 <img src="assets/images/icons/Star.svg" class="w-6 flex shrink-0" alt="star">
                                 <img src="assets/images/icons/Star.svg" class="w-6 flex shrink-0" alt="star">
@@ -1010,7 +1012,7 @@
                         </div>
                         <hr class="border-ngetrip-border">
                         <div class="flex flex-col gap-6 justify-between h-full">
-                            <p class="font-semibold leading-[28px]">"Bisa nikmatin Spotify dan Disney+ murah banget! Patungan di sini bikin semua jadi mudah dan terpercaya."</p>
+                            <p class="font-semibold leading-[28px]">"Bisa nikmatin Spotify dan Disney+ murah banget! Ngetrip di sini bikin semua jadi mudah dan terpercaya."</p>
                             <div class="flex items-center gap-[2px]">
                                 <img src="assets/images/icons/Star.svg" class="w-6 flex shrink-0" alt="star">
                                 <img src="assets/images/icons/Star.svg" class="w-6 flex shrink-0" alt="star">
@@ -1056,7 +1058,7 @@
                         </div>
                         <hr class="border-ngetrip-border">
                         <div class="flex flex-col gap-6 justify-between h-full">
-                            <p class="font-semibold leading-[28px]">"Patungan akun di sini terpercaya, gak nyesel! Netflix dan Disney+ lancar jaya, harga terjangkau pula!"</p>
+                            <p class="font-semibold leading-[28px]">"Ngetrip akun di sini terpercaya, gak nyesel! Netflix dan Disney+ lancar jaya, harga terjangkau pula!"</p>
                             <div class="flex items-center gap-[2px]">
                                 <img src="assets/images/icons/Star.svg" class="w-6 flex shrink-0" alt="star">
                                 <img src="assets/images/icons/Star.svg" class="w-6 flex shrink-0" alt="star">
@@ -1166,7 +1168,7 @@
                         </div>
                         <hr class="border-ngetrip-border">
                         <div class="flex flex-col gap-6 justify-between h-full">
-                            <p class="font-semibold leading-[28px]">"Bisa nikmatin Spotify dan Disney+ murah banget! Patungan di sini bikin semua jadi mudah dan terpercaya."</p>
+                            <p class="font-semibold leading-[28px]">"Bisa nikmatin Spotify dan Disney+ murah banget! Ngetrip di sini bikin semua jadi mudah dan terpercaya."</p>
                             <div class="flex items-center gap-[2px]">
                                 <img src="assets/images/icons/Star.svg" class="w-6 flex shrink-0" alt="star">
                                 <img src="assets/images/icons/Star.svg" class="w-6 flex shrink-0" alt="star">
@@ -1209,19 +1211,58 @@
         </div>
     </section>
     <section id="FAQ" class="py-[100px] bg-[linear-gradient(270deg,rgba(255,255,255,0.5)_50%,rgba(243,239,245,0)_100%)]">
-        <div class="content flex flex-col w-full max-w-[1280px] mx-auto px-16 gap-8">
-            <div class="flex flex-col gap-5 text-center px-16">
+        <div class="content flex flex-col w-full max-w-[1280px] mx-auto hp-px-16 px-16 gap-8">
+            <div class="flex flex-col gap-5 text-center hp-px-16">
                 <h2 class="font-bold text-xl leading-[25px] text-ngetrip-orange">Frequently Asked Questions</h2>
                 <p class="font-grifter font-bold text-4xl leading-[37px]">Common Questions About Our Service</p>
             </div>
-            <div class="flex gap-6">
-                <div id="Left-Cards" class="flex flex-col gap-6">
+            <div class="grid hp-col-2 gap-6">
+                <div class="faq-card flex flex-col rounded-3xl p-8 gap-4 bg-white">
+                    <p class="font-grifter font-bold text-2xl leading-[25px]">1</p>
+                    <div class="accordion group flex flex-col has-[:checked]:!h-11 overflow-hidden transition-all duration-300">
+                        <label class="flex items-center gap-4 justify-between min-h-[38px]">
+                            <input type="checkbox" class="hidden" checked>
+                            <h3 class="font-grifter text-lg leading-[25px]">When does the subscription period at Ngetrip become active?</h3>
+                            <img src="assets/images/icons/arrow-head-down-black.svg" class="w-6 flex shrink-0 group-has-[:checked]:-rotate-180 transition-all duration-300" alt="icon">
+                        </label>
+                        <div class="accordion-content mt-4">
+                            <p class="font-semibold leading-[25px]">Your subscription becomes active immediately after the payment is successfully processed. You will receive a confirmation email with the details</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-card flex flex-col rounded-3xl p-8 gap-4 bg-white">
+                    <p class="font-grifter font-bold text-2xl leading-[25px]">2</p>
+                    <div class="accordion group flex flex-col has-[:checked]:!h-11 overflow-hidden transition-all duration-300">
+                        <label class="flex items-center gap-4 justify-between min-h-[38px]">
+                            <input type="checkbox" class="hidden" checked>
+                            <h3 class="font-grifter text-lg leading-[25px]">What payment methods are available on Ngetrip?</h3>
+                            <img src="assets/images/icons/arrow-head-down-black.svg" class="w-6 flex shrink-0 group-has-[:checked]:-rotate-180 transition-all duration-300" alt="icon">
+                        </label>
+                        <div class="accordion-content mt-4">
+                            <p class="font-semibold leading-[25px]">Your subscription becomes active immediately after the payment is successfully processed. You will receive a confirmation email with the details</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-card flex flex-col rounded-3xl p-8 gap-4 bg-white">
+                    <p class="font-grifter font-bold text-2xl leading-[25px]">3</p>
+                    <div class="accordion group flex flex-col has-[:checked]:!h-11 overflow-hidden transition-all duration-300">
+                        <label class="flex items-center gap-4 justify-between min-h-[38px]">
+                            <input type="checkbox" class="hidden" checked>
+                            <h3 class="font-grifter text-lg leading-[25px]">What if there are difficulties during the payment process?</h3>
+                            <img src="assets/images/icons/arrow-head-down-black.svg" class="w-6 flex shrink-0 group-has-[:checked]:-rotate-180 transition-all duration-300" alt="icon">
+                        </label>
+                        <div class="accordion-content mt-4">
+                            <p class="font-semibold leading-[25px]">Your subscription becomes active immediately after the payment is successfully processed. You will receive a confirmation email with the details</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div id="Left-Cards" class="flex flex-col gap-6">
                     <div class="faq-card flex flex-col rounded-3xl p-8 gap-4 bg-white">
                         <p class="font-grifter font-bold text-2xl leading-[25px]">1</p>
                         <div class="accordion group flex flex-col has-[:checked]:!h-11 overflow-hidden transition-all duration-300">
                             <label class="flex items-center gap-4 justify-between min-h-[38px]">
                                 <input type="checkbox" class="hidden" checked>
-                                <h3 class="font-grifter text-lg leading-[25px]">When does the subscription period at Patungan become active?</h3>
+                                <h3 class="font-grifter text-lg leading-[25px]">When does the subscription period at Ngetrip become active?</h3>
                                 <img src="assets/images/icons/arrow-head-down-black.svg" class="w-6 flex shrink-0 group-has-[:checked]:-rotate-180 transition-all duration-300" alt="icon">
                             </label>
                             <div class="accordion-content mt-4">
@@ -1234,7 +1275,7 @@
                         <div class="accordion group flex flex-col has-[:checked]:!h-11 overflow-hidden transition-all duration-300">
                             <label class="flex items-center gap-4 justify-between min-h-[38px]">
                                 <input type="checkbox" class="hidden" checked>
-                                <h3 class="font-grifter text-lg leading-[25px]">What payment methods are available on Patungan?</h3>
+                                <h3 class="font-grifter text-lg leading-[25px]">What payment methods are available on Ngetrip?</h3>
                                 <img src="assets/images/icons/arrow-head-down-black.svg" class="w-6 flex shrink-0 group-has-[:checked]:-rotate-180 transition-all duration-300" alt="icon">
                             </label>
                             <div class="accordion-content mt-4">
@@ -1255,14 +1296,53 @@
                             </div>
                         </div>
                     </div>
+                </div> -->
+                <div class="faq-card flex flex-col rounded-3xl p-8 gap-4 bg-white">
+                    <p class="font-grifter font-bold text-2xl leading-[25px]">4</p>
+                    <div class="accordion group flex flex-col has-[:checked]:!h-11 overflow-hidden transition-all duration-300">
+                        <label class="flex items-center gap-4 justify-between min-h-[38px]">
+                            <input type="checkbox" class="hidden" checked>
+                            <h3 class="font-grifter text-lg leading-[25px]">How do I proceed with renewing my subscription on Ngetrip?</h3>
+                            <img src="assets/images/icons/arrow-head-down-black.svg" class="w-6 flex shrink-0 group-has-[:checked]:-rotate-180 transition-all duration-300" alt="icon">
+                        </label>
+                        <div class="accordion-content mt-4">
+                            <p class="font-semibold leading-[25px]">Your subscription becomes active immediately after the payment is successfully processed. You will receive a confirmation email with the details</p>
+                        </div>
+                    </div>
                 </div>
-                <div id="Right-Cards" class="flex flex-col gap-6">
+                <div class="faq-card flex flex-col rounded-3xl p-8 gap-4 bg-white">
+                    <p class="font-grifter font-bold text-2xl leading-[25px]">5</p>
+                    <div class="accordion group flex flex-col has-[:checked]:!h-11 overflow-hidden transition-all duration-300">
+                        <label class="flex items-center gap-4 justify-between min-h-[38px]">
+                            <input type="checkbox" class="hidden" checked>
+                            <h3 class="font-grifter text-lg leading-[25px]">What should be done if there are issues with the subscription account?</h3>
+                            <img src="assets/images/icons/arrow-head-down-black.svg" class="w-6 flex shrink-0 group-has-[:checked]:-rotate-180 transition-all duration-300" alt="icon">
+                        </label>
+                        <div class="accordion-content mt-4">
+                            <p class="font-semibold leading-[25px]">Your subscription becomes active immediately after the payment is successfully processed. You will receive a confirmation email with the details</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-card flex flex-col rounded-3xl p-8 gap-4 bg-white">
+                    <p class="font-grifter font-bold text-2xl leading-[25px]">6</p>
+                    <div class="accordion group flex flex-col has-[:checked]:!h-11 overflow-hidden transition-all duration-300">
+                        <label class="flex items-center gap-4 justify-between min-h-[38px]">
+                            <input type="checkbox" class="hidden" checked>
+                            <h3 class="font-grifter text-lg leading-[25px]">How do I proceed with renewing my subscription on Ngetrip?</h3>
+                            <img src="assets/images/icons/arrow-head-down-black.svg" class="w-6 flex shrink-0 group-has-[:checked]:-rotate-180 transition-all duration-300" alt="icon">
+                        </label>
+                        <div class="accordion-content mt-4">
+                            <p class="font-semibold leading-[25px]">Your subscription becomes active immediately after the payment is successfully processed. You will receive a confirmation email with the details</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div id="Right-Cards" class="flex flex-col gap-6">
                     <div class="faq-card flex flex-col rounded-3xl p-8 gap-4 bg-white">
                         <p class="font-grifter font-bold text-2xl leading-[25px]">2</p>
                         <div class="accordion group flex flex-col has-[:checked]:!h-11 overflow-hidden transition-all duration-300">
                             <label class="flex items-center gap-4 justify-between min-h-[38px]">
                                 <input type="checkbox" class="hidden" checked>
-                                <h3 class="font-grifter text-lg leading-[25px]">How do I proceed with renewing my subscription on Patungan?</h3>
+                                <h3 class="font-grifter text-lg leading-[25px]">How do I proceed with renewing my subscription on Ngetrip?</h3>
                                 <img src="assets/images/icons/arrow-head-down-black.svg" class="w-6 flex shrink-0 group-has-[:checked]:-rotate-180 transition-all duration-300" alt="icon">
                             </label>
                             <div class="accordion-content mt-4">
@@ -1288,7 +1368,7 @@
                         <div class="accordion group flex flex-col has-[:checked]:!h-11 overflow-hidden transition-all duration-300">
                             <label class="flex items-center gap-4 justify-between min-h-[38px]">
                                 <input type="checkbox" class="hidden" checked>
-                                <h3 class="font-grifter text-lg leading-[25px]">How do I proceed with renewing my subscription on Patungan?</h3>
+                                <h3 class="font-grifter text-lg leading-[25px]">How do I proceed with renewing my subscription on Ngetrip?</h3>
                                 <img src="assets/images/icons/arrow-head-down-black.svg" class="w-6 flex shrink-0 group-has-[:checked]:-rotate-180 transition-all duration-300" alt="icon">
                             </label>
                             <div class="accordion-content mt-4">
@@ -1296,13 +1376,13 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
     <footer class="py-[52px] bg-[linear-gradient(277.6deg,#FFFFFF_0.22%,#F5F3F6_21.18%)]">
         <div class="flex flex-col w-full max-w-[1280px] px-[52px] mx-auto gap-[52px]">
-            <div class="flex gap-[72px]">
+            <div class="flex gap-[72px] f-row">
                 <div class="flex flex-col gap-6 w-full max-w-[349px] items-start">
                     <img src="assets/images/logos/logo.svg" class="h-10 flex shrink-0" alt="logo">
                     <p class="font-medium leading-[25px] text-ngetrip-grey">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
@@ -1359,47 +1439,48 @@
             </div>
         </div>
     </footer>
-    
-    <script src="js/accordion.js"></script> 
+
+    <script src="js/accordion.js"></script>
     <script>
         const texts = document.querySelectorAll('#slider span');
         const sliderContainer = document.getElementById('slider-container');
         const slider = document.getElementById('slider');
         let currentIndex = 0;
-      
+
         function updateSlider() {
-          const currentText = texts[currentIndex];
-          const containerWidth = currentText.offsetWidth;
-      
-          // Smoothly update the container's width
-          sliderContainer.style.transition = 'width 300ms';
-          sliderContainer.style.width = containerWidth + 'px';
-      
-          // Calculate the correct offset based on each text width
-          let offset = 0;
-          for (let i = 0; i < currentIndex; i++) {
-            offset += texts[i].offsetWidth;
-          }
-      
-          // Slide the text horizontally to the correct position
-          slider.style.transform = `translateX(-${offset}px)`;
-      
-          // Move to the next text after 1s
-          currentIndex = (currentIndex + 1) % texts.length;
+            const currentText = texts[currentIndex];
+            const containerWidth = currentText.offsetWidth;
+
+            // Smoothly update the container's width
+            sliderContainer.style.transition = 'width 300ms';
+            sliderContainer.style.width = containerWidth + 'px';
+
+            // Calculate the correct offset based on each text width
+            let offset = 0;
+            for (let i = 0; i < currentIndex; i++) {
+                offset += texts[i].offsetWidth;
+            }
+
+            // Slide the text horizontally to the correct position
+            slider.style.transform = `translateX(-${offset}px)`;
+
+            // Move to the next text after 1s
+            currentIndex = (currentIndex + 1) % texts.length;
         }
-      
+
         // Set initial width and position on page load
         function setInitialWidth() {
-          const firstText = texts[0];
-          sliderContainer.style.width = firstText.offsetWidth + 'px';
+            const firstText = texts[0];
+            sliderContainer.style.width = firstText.offsetWidth + 'px';
         }
-      
+
         // Ensure the width is correct when the page loads
         window.addEventListener('load', () => {
-          setInitialWidth();
-          // Start the slider interval after setting initial width
-          setInterval(updateSlider, 2000);
+            setInitialWidth();
+            // Start the slider interval after setting initial width
+            setInterval(updateSlider, 2000);
         });
     </script>
 </body>
+
 </html>
