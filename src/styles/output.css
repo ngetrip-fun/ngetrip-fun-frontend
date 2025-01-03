@@ -730,6 +730,10 @@ video {
   height: 4rem;
 }
 
+.h-21 {
+  height: 5rem;
+}
+
 .h-6 {
   height: 1.5rem;
 }
@@ -803,8 +807,8 @@ video {
   height: 100vh;
 }
 
-.min-h-\[38px\] {
-  min-height: 38px;
+.min-h-\[50px\] {
+  min-height: 50px;
 }
 
 .min-h-screen {
@@ -1381,8 +1385,8 @@ video {
   text-align: center;
 }
 
-.font-grifter {
-  font-family: Grifter-Bold;
+.font-newbrug {
+  font-family: newbrug-Bold;
 }
 
 .font-\[\'Inter\'\] {
@@ -1601,9 +1605,9 @@ video {
 }
 
 @font-face {
-  font-family: "Grifter-Bold";
+  font-family: "newbrug-Bold";
 
-  src: url("assets/fonts/Grifter/grifterbold.otf") format("opentype");
+  src: url("assets/fonts/newbrug/newbrugbold.otf") format("opentype");
 }
 
 body{
