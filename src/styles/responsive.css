@@ -17,6 +17,12 @@
     .max-width{
         width: 480px;
     }
+    .min-width{
+        min-width: 480px;
+    }
+    .w-\[62px\] {
+        width: 40px;
+    }
     .hp-height-unset{
         height: unset;
     }
@@ -29,8 +35,11 @@
     .hp-none{
         display: none;
     }
-    .bg-white{
+    /* .bg-white{
         background-color:unset;
+    } */
+    .object-contain{
+        object-fit: contain;
     }
     .shadow{
         box-shadow: none;
@@ -45,11 +54,14 @@
     .hp-grid-cols-2{
         grid-template-columns: 1fr;
     }
+    .grid-cols-2 {
+        grid-template-columns: auto;
+    }
     .f-col{
         flex-direction: column;
     }
     .f-row{
-        flex-direction: column;
+        flex-direction: row;
     }
     .hp-col-2{
         grid-template-columns: 1fr;
@@ -57,19 +69,44 @@
     .p-8{
         padding: 15px 25px;
     }
+    .py-\[30px\]{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
     .hp-px-16{
         padding: 30px 30px;
     }
     .py-\[42px\] {
         padding: 42px 0px;
     }
+    .p-30{
+        padding: 30px;
+    }
     .p-50{
         padding: 50px 32px 50px 32px;
+    }
+    .pl-9{
+        padding-left: 1rem;
+    }
+    .text-\[16px\]{
+        font-size: 16px;
+    }
+    .text-\[25px\]{
+        font-size: 25px;
     }
     .text-\[42px\]{
         font-size: 30px;
     }
     .text-\[62px\] {
         font-size: 40px;
+    }
+    .text-1xl{
+        font-size: 1.3rem;
+    }
+    .lh-\[30px\] {
+        line-height: 30px;
+    }
+    .gap-10 {
+        gap: 0.5rem;
     }
 }
