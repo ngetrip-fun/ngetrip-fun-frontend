@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles/input.css" rel="stylesheet">
     <link href="./styles/output.css" rel="stylesheet">
+    <link href="./styles/responsive.css" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -43,7 +45,7 @@
             </div>
         </div>
     </nav>
-    <main class="flex flex-col w-full max-w-[1280px] mx-auto px-16 gap-9 mt-16">
+    <main class="flex flex-col w-full max-w-[1280px] mx-auto px-10 px-16 gap-9 mt-16">
         <div class="flex flex-col gap-6">
             <div class="flex items-center gap-2">
                 <p class="font-semibold text-lg leading-[22px] text-ngetrip-grey last:text-ngetrip-black">Home</p>
@@ -52,9 +54,9 @@
             </div>
             <h1 class="font-newbrug font-bold text-[32px] leading-[33px]">Detail Pesanan Kamu</h1>
         </div>
-        <div class="flex gap-9 mb-20">
+        <div class="flex f-col gap-9 mb-20">
             <div id="Details-tab" class="flex flex-col w-[670px] shrink-0 gap-9">
-                <div id="Tab-Links" class="grid grid-cols-2 w-full max-w-[520px] gap-6">
+                <div id="Tab-Links" class="grid grid-cols-2 mob-grid-cols-2 w-full max-w-[520px] gap-6">
                     <label class="tab-link group flex justify-between items-center w-full rounded-[18px] py-4 px-6 gap-2 bg-white transition-all duration-300 has-[:checked]:bg-ngetrip-black" data-target-tab="#Broadcast-Message-Tab">
                         <span class="font-bold leading-5 text-nowrap group-has-[:checked]:text-white">Broadcast Message</span>
                         <div class="w-6 h-6 relative flex shrink-0">
@@ -72,9 +74,9 @@
                         <input type="radio" name="tab" class="hidden">
                     </label>
                 </div>
-                <div id="Tab-Contents" class="flex">
+                <div id="Tab-Contents" class="flex mr-10">
                     <div id="Broadcast-Message-Tab" class="tab-content flex flex-col w-full gap-9">
-                        <div id="Delivery" class="flex flex-col rounded-[32px] p-8 gap-8 bg-white overflow-hidden">
+                        <div id="Delivery" class="flex flex-col rounded-[32px] p-8 bg-white overflow-hidden">
                             <div class="flex items-center justify-between rounded-3xl border border-ngetrip-border p-6 gap-6">
                                 <div class="flex items-center gap-4">
                                     <div class="flex w-[62px] h-[62px] shrink-0 rounded-xl overflow-hidden">
@@ -330,15 +332,15 @@
                     </div>
                 </div>
             </div>
-            <div id="Member-Status" class="flex flex-col w-full max-w-[446px] rounded-[32px] overflow-hidden">
-                <div class="relative flex items-center text-center px-6 pt-8 pb-16 -mb-8 bg-[linear-gradient(113.19deg,#E25520_0%,#A83279_100.41%)] overflow-hidden">
+            <div id="Member-Status" class="flex flex-col w-full w-[670px] max-w-[446px] max-w-[670px] rounded-[32px] overflow-hidden">
+                <div class="relative flex items-center text-center px-6 pt-8 pb-16 mr-10 -mb-8 bg-[linear-gradient(113.19deg,#E25520_0%,#A83279_100.41%)] overflow-hidden">
                     <img src="assets/images/backgrounds/header-lines-bg-small.svg" class="absolute top-0 w-full h-full object-cover object-top" alt="background">
                     <div class="relative w-full">
                         <p class="font-semibold text-xl leading-[25px] text-[#E2B9BB]">Your Booking Code:</p>
-                        <p class="font-bold text-[32px] leading-10 text-white">ngetrip2050</p>
+                        <p class="font-bold text-[32px] leading-10 text-gray">ngetrip2050</p>
                     </div>
                 </div>
-                <div class="relative flex flex-col rounded-[32px] p-8 gap-6 bg-white">
+                <div class="relative flex flex-col rounded-[32px] p-8 mr-10 gap-6 bg-white">
                     <h2 class="font-bold text-xl leading-[25px]">Group Member 2/4</h2>
                     <hr class="border-ngetrip-border">
                     <div class="flex flex-col gap-6">

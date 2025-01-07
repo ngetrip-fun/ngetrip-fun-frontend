@@ -9,9 +9,9 @@
 }
 
 @font-face {
-    font-family: "newbrug-Bold";
-    src: url("assets/fonts/newbrug/newbrugbold.otf") format("opentype");
-}
+        font-family: "newbrug-Bold";
+        src: url("../assets/fonts/newbrug/newbrugbold.otf") format("opentype");
+    }
 
 body{
     background-color: #F5F3F6;
