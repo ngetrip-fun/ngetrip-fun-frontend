@@ -38,6 +38,9 @@
     .hp-h-100px{
         height: 100px;
     }
+    .h-14{
+        height: 3.5rem;
+    }
     .d-none{
         display: none;
     }
@@ -94,14 +97,17 @@
     .py-\[42px\] {
         padding: 42px 0px;
     }
-    .px-6{
-        padding: 0 1.5rem;
+    .px-7{
+        padding: 0 1.9rem;
     }
     .px-10{
         padding: 0 2.5rem;
     }
     .pt-4{
         padding-top: 1rem;
+    }
+    .pt-5{
+        padding-top: 1.3rem;
     }
     .pl-9{
         padding-left: 1rem;
