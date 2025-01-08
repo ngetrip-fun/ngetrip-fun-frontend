@@ -14,7 +14,7 @@ module.exports = {
         "patungan-border": "#DCDFE6",
       },
       // fontFamily:{
-        // "newbrug": "newbrug-Bold"
+        // "newbrug": "Newbrug-Bold"
       // },
       keyframes: {
         slide: {

@@ -1386,7 +1386,7 @@ video {
 }
 
 .font-newbrug {
-  font-family: newbrug-Bold;
+  font-family: Newbrug-Bold;
 }
 
 .font-\[\'Inter\'\] {
@@ -1616,7 +1616,7 @@ video {
 }
 
 @font-face {
-  font-family: "newbrug-Bold";
+  font-family: "Newbrug-Bold";
 
   src: url("assets/fonts/newbrug/newbrugbold.otf") format("opentype");
 }
