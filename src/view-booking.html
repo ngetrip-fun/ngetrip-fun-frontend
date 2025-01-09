@@ -1,51 +1,55 @@
 <!doctype html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./output.css" rel="stylesheet">
+    <link href="./styles/input.css" rel="stylesheet">
+    <link href="./styles/output.css" rel="stylesheet">
+    <link href="./styles/responsive.css" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <div class="flex flex-col min-h-screen w-full justify-center items-center bg-[linear-gradient(113.19deg,#E25520_0%,#A83279_100.41%)]">
+    <div class="flex flex-col min-h-screen w-full justify-center items-center bg-[linear-gradient(113.19deg,#02656B_0%,#FF8000_100.41%)]">
         <div class="absolute w-full h-full overflow-hidden">
             <img src="assets/images/backgrounds/Full-bg.svg" class="w-full h-full object-cover" alt="background">
         </div>
-        <main class="relative flex flex-col h-screen py-10 px-16 gap-8 items-center justify-between">
+        <main class="relative flex flex-col h-screen py-10 px-16 p-50 gap-8 items-center justify-between">
             <a href="index.html">
-                <img src="assets/images/logos/logo-white.svg" class="h-10 flex shrink-0" alt="logo">
+                <img src="assets/images/logos/logo-white.svg" class="h-21 flex shrink-0" alt="logo">
             </a>
-            <form action="booking-details.html" class="flex flex-col w-full max-w-[782px] items-center rounded-[64px] p-[52px] gap-8 bg-white">
-                <div class="flex flex-col items-center text-center gap-6">
-                    <img src="assets/images/icons/receipt-text-orange-fill.svg" class="w-[62px] flex shrink-0" alt="icon">
-                    <h1 class="font-Grifter font-bold text-[32px] leading-[51px]">Lihat Pesanan Kamu</h1>
+            <form action="booking-details.html" class="flex flex-col w-full max-w-[782px] items-center rounded-[64px] p-[52px] p-30 gap-8 bg-white">
+                <div class="flex flex-col items-center text-center gap-6 gap-10">
+                    <img src="assets/images/icons/receipt-text-green-fill.svg" class="w-[62px] w-[40px] flex shrink-0" alt="icon">
+                    <h1 class="font-newbrug font-bold text-[32px] text-[25px] leading-[51px] lh-[30px]">Lihat Pesanan Kamu</h1>
                 </div>
                 <div class="flex flex-col gap-6">
-                    <div class="grid grid-cols-2 gap-6">
-                        <label class="flex flex-col gap-4">
-                            <p class="font-bold text-xl leading-[25px] text-patungan-grey">Booking Code</p>
-                            <div class="flex items-center rounded-3xl border border-patungan-border p-6 gap-4 bg-patungan-bg-grey focus-within:border-patungan-orange transition-all duration-300">
+                    <div class="grid grid-cols-2 mob-grid-cols-1 gap-6">
+                        <label class="flex flex-col gap-4 gap-10">
+                            <p class="font-bold text-xl text-[16px] leading-[25px] text-ngetrip-grey">Booking Code</p>
+                            <div class="flex items-center rounded-3xl border border-ngetrip-border p-3 p-6 gap-4 bg-ngetrip-bg-grey focus-within:border-ngetrip-orange transition-all duration-300">
                                 <img src="assets/images/icons/receipt-black.svg" class="w-6 h-6 flex shrink-0" alt="icon">
-                                <div class="flex h-6 border border-patungan-border"></div>
-                                <input type="text" name="" id="" class="appearance-none outline-none bg-patungan-bg-grey w-full font-bold text-xl leading-[25px] placeholder:text-patungan-black" placeholder="Enter the code">
+                                <div class="flex h-6 border border-ngetrip-border"></div>
+                                <input type="text" name="" id="" class="appearance-none outline-none bg-ngetrip-bg-grey w-full font-bold text-xl text-[16px] leading-[25px] placeholder:text-ngetrip-black" placeholder="Enter the code">
                             </div>
                         </label>
-                        <label class="flex flex-col gap-4">
-                            <p class="font-bold text-xl leading-[25px] text-patungan-grey">WhatsApp Number</p>
-                            <div class="flex items-center rounded-3xl border border-patungan-border p-6 gap-4 bg-patungan-bg-grey focus-within:border-patungan-orange transition-all duration-300">
+                        <label class="flex flex-col gap-4 gap-10">
+                            <p class="font-bold text-xl text-[16px] leading-[25px] text-ngetrip-grey">WhatsApp Number</p>
+                            <div class="flex items-center rounded-3xl border border-ngetrip-border p-3 p-6 gap-4 bg-ngetrip-bg-grey focus-within:border-ngetrip-orange transition-all duration-300">
                                 <img src="assets/images/icons/whatsapp-black.svg" class="w-6 h-6 flex shrink-0" alt="icon">
-                                <div class="flex h-6 border border-patungan-border"></div>
-                                <input type="tel" name="" id="phone-number" class="appearance-none outline-none bg-patungan-bg-grey w-full font-bold text-xl leading-[25px] placeholder:text-patungan-black" placeholder="+62 Enter the number">
+                                <div class="flex h-6 border border-ngetrip-border"></div>
+                                <input type="tel" name="" id="phone-number" class="appearance-none outline-none bg-ngetrip-bg-grey w-full font-bold text-xl text-[16px] leading-[25px] placeholder:text-ngetrip-black" placeholder="+62 Enter the number">
                             </div>
                         </label>
                     </div>
-                    <p class="font-['Poppins'] font-medium leading-[25px] text-patungan-grey text-center">Masukkan kode booking yang telah dikirim ke email Anda untuk memeriksa status pemesanan Anda.</p>
+                    <p class="font-['Inter'] font-medium leading-[25px] text-ngetrip-grey text-center">Masukkan kode booking yang telah dikirim ke email Anda untuk memeriksa status pemesanan Anda.</p>
                 </div>
-                <button type="submit" class="flex items-center rounded-full h-[60px] px-9 w-full gap-[6px] bg-patungan-orange justify-center">
+                <button type="submit" class="flex items-center rounded-full h-[60px] px-9 w-full gap-[6px] bg-ngetrip-green justify-center">
                     <span class="font-bold text-lg leading-5 text-white">Lihat Pesananku</span>
                 </button>
             </form>
@@ -55,4 +59,5 @@
 
     <script src="js/whatsapp-number.js"></script>
 </body>
+
 </html>

@@ -9,13 +9,13 @@
 }
 
 @font-face {
-    font-family: "Grifter-Bold";
-    src: url("assets/fonts/Grifter/grifterbold.otf") format("opentype");
-}
+        font-family: "Newbrug-Bold";
+        src: url("../assets/fonts/newbrug/newbrugbold.otf") format("opentype");
+    }
 
 body{
     background-color: #F5F3F6;
-    font-family: "Plus Jakarta Sans";
+    font-family: "Figtree";
     display: flex;
     flex-direction: column;
     min-height: 100vh;

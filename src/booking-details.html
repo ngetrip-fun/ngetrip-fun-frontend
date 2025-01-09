@@ -1,59 +1,63 @@
 <!doctype html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./output.css" rel="stylesheet">
+    <link href="./styles/input.css" rel="stylesheet">
+    <link href="./styles/output.css" rel="stylesheet">
+    <link href="./styles/responsive.css" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <nav class="relative w-full max-w-[1280px] mx-auto h-[140px]">
         <div class="fixed top-10 w-full max-w-[1280px] px-16 z-20">
             <div class="flex items-center w-full max-w-[1280px] h-[100px] mx-auto rounded-full p-5 pl-9 justify-between bg-white shadow-[0px_23px_35px_0px_#0C0F2405]">
                 <a href="index.html">
-                    <img src="assets/images/logos/logo.svg" class="h-10 flex shrink-0" alt="logo">
+                    <img src="assets/images/logos/logo.svg" class="h-21 flex shrink-0" alt="logo">
                 </a>
                 <ul class="flex items-center gap-8">
                     <li>
-                        <a href="#" class="font-semibold text-lg leading-[22.68px] text-patungan-grey">Layanan</a>
+                        <a href="#" class="font-semibold text-lg leading-[22.68px] text-ngetrip-grey">Layanan</a>
                     </li>
-                    <div class="h-[18px] border-[1.5px] border-patungan-border"></div>
+                    <div class="h-[18px] border-[1.5px] border-ngetrip-border"></div>
                     <li>
-                        <a href="#" class="font-semibold text-lg leading-[22.68px] text-patungan-grey">Cara Pesan</a>
+                        <a href="#" class="font-semibold text-lg leading-[22.68px] text-ngetrip-grey">Cara Pesan</a>
                     </li>
-                    <div class="h-[18px] border-[1.5px] border-patungan-border"></div>
+                    <div class="h-[18px] border-[1.5px] border-ngetrip-border"></div>
                     <li>
-                        <a href="#" class="font-semibold text-lg leading-[22.68px] text-patungan-grey">Testimoni</a>
+                        <a href="#" class="font-semibold text-lg leading-[22.68px] text-ngetrip-grey">Testimoni</a>
                     </li>
-                    <div class="h-[18px] border-[1.5px] border-patungan-border"></div>
+                    <div class="h-[18px] border-[1.5px] border-ngetrip-border"></div>
                     <li>
-                        <a href="#" class="font-semibold text-lg leading-[22.68px] text-patungan-grey">FAQ</a>
+                        <a href="#" class="font-semibold text-lg leading-[22.68px] text-ngetrip-grey">FAQ</a>
                     </li>
                 </ul>
-                <a href="view-booking.html" class="flex items-center rounded-full border border-patungan-orange/10 bg-patungan-orange/10 h-[60px] px-9 gap-[6px]">
-                    <img src="assets/images/icons/receipt-text-orange.svg" class="w-6 flex shrink-0" alt="icon">
-                    <span class="font-bold leading-5 text-patungan-orange">Pesanan Saya</span>
+                <a href="view-booking.html" class="flex items-center rounded-full border border-ngetrip-orange/10 bg-ngetrip-green/10 h-[60px] px-9 gap-[6px]">
+                    <img src="assets/images/icons/receipt-text-green.svg" class="w-6 flex shrink-0" alt="icon">
+                    <span class="font-bold leading-5 text-ngetrip-green">Pesanan Saya</span>
                 </a>
             </div>
         </div>
     </nav>
-    <main class="flex flex-col w-full max-w-[1280px] mx-auto px-16 gap-9 mt-16">
+    <main class="flex flex-col w-full max-w-[1280px] mx-auto px-10 px-16 gap-9 mt-16">
         <div class="flex flex-col gap-6">
             <div class="flex items-center gap-2">
-                <p class="font-semibold text-lg leading-[22px] text-patungan-grey last:text-patungan-black">Home</p>
-                <p class="font-semibold leading-5 text-patungan-grey">></p>
-                <p class="font-semibold text-lg leading-[22px] text-patungan-grey last:text-patungan-black">Pesanan Saya</p>
+                <p class="font-semibold text-lg leading-[22px] text-ngetrip-grey last:text-ngetrip-black">Home</p>
+                <p class="font-semibold leading-5 text-ngetrip-grey">></p>
+                <p class="font-semibold text-lg leading-[22px] text-ngetrip-grey last:text-ngetrip-black">Pesanan Saya</p>
             </div>
-            <h1 class="font-Grifter font-bold text-[32px] leading-[33px]">Detail Pesanan Kamu</h1>
+            <h1 class="font-newbrug font-bold text-[32px] leading-[33px]">Detail Pesanan Kamu</h1>
         </div>
-        <div class="flex gap-9 mb-20">
+        <div class="flex f-col gap-9 mb-20">
             <div id="Details-tab" class="flex flex-col w-[670px] shrink-0 gap-9">
-                <div id="Tab-Links" class="grid grid-cols-2 w-full max-w-[520px] gap-6">
-                    <label class="tab-link group flex justify-between items-center w-full rounded-[18px] py-4 px-6 gap-2 bg-white transition-all duration-300 has-[:checked]:bg-patungan-black" data-target-tab="#Broadcast-Message-Tab">
+                <div id="Tab-Links" class="grid grid-cols-2 mob-grid-cols-2 w-full max-w-[520px] gap-6">
+                    <label class="tab-link group flex justify-between items-center w-full rounded-[18px] py-4 px-6 gap-2 bg-white transition-all duration-300 has-[:checked]:bg-ngetrip-black" data-target-tab="#Broadcast-Message-Tab">
                         <span class="font-bold leading-5 text-nowrap group-has-[:checked]:text-white">Broadcast Message</span>
                         <div class="w-6 h-6 relative flex shrink-0">
                             <img src="assets/images/icons/messages-black.svg" class="absolute w-6 top-0 opacity-100 group-has-[:checked]:opacity-0 transition-all duration-300" alt="icon">
@@ -61,7 +65,7 @@
                         </div>
                         <input type="radio" name="tab" class="hidden" checked>
                     </label>
-                    <label class="tab-link group flex justify-between items-center w-full rounded-[18px] py-4 px-6 gap-2 bg-white transition-all duration-300 has-[:checked]:bg-patungan-black" data-target-tab="#Order-Details-Tab">
+                    <label class="tab-link group flex justify-between items-center w-full rounded-[18px] py-4 px-6 gap-2 bg-white transition-all duration-300 has-[:checked]:bg-ngetrip-black" data-target-tab="#Order-Details-Tab">
                         <span class="font-bold leading-5 text-nowrap group-has-[:checked]:text-white">Order Details</span>
                         <div class="w-6 h-6 relative flex shrink-0">
                             <img src="assets/images/icons/receipt-text-black.svg" class="absolute w-6 top-0 opacity-100 group-has-[:checked]:opacity-0 transition-all duration-300" alt="icon">
@@ -70,25 +74,25 @@
                         <input type="radio" name="tab" class="hidden">
                     </label>
                 </div>
-                <div id="Tab-Contents" class="flex">
+                <div id="Tab-Contents" class="flex mr-10">
                     <div id="Broadcast-Message-Tab" class="tab-content flex flex-col w-full gap-9">
                         <div id="Delivery" class="flex flex-col rounded-[32px] p-8 gap-8 bg-white overflow-hidden">
-                            <div class="flex items-center justify-between rounded-3xl border border-patungan-border p-6 gap-6">
+                            <div class="flex items-center justify-between rounded-3xl border border-ngetrip-border p-6 gap-6">
                                 <div class="flex items-center gap-4">
                                     <div class="flex w-[62px] h-[62px] shrink-0 rounded-xl overflow-hidden">
                                         <img src="assets/images/logos/netflix.png" class="w-full h-full object-contain" alt="logo">
                                     </div>
                                     <div>
                                         <p class="font-bold text-xl leading-[25px]">Netflix</p>
-                                        <p class="text-patungan-grey">
+                                        <p class="text-ngetrip-grey">
                                             <span class="font-semibold text-xl leading-[25px]">Rp46.500</span>
                                             <span class="font-bold leading-5">/person</span>
                                         </p>
                                     </div>
                                 </div>
-                                <div class="flex items-center rounded-lg p-2 gap-1 bg-patungan-red/10">
-                                    <img src="assets/images/icons/clock-red.svg" class="w-6 flex shrink-0" alt="icon">
-                                    <p class="font-bold leading-5 text-patungan-red">1 month</p>
+                                <div class="flex items-center rounded-lg p-2 gap-1 bg-ngetrip-orange/10">
+                                    <img src="assets/images/icons/clock-orange.svg" class="w-6 flex shrink-0" alt="icon">
+                                    <p class="font-bold leading-5 text-ngetrip-orange">1 month</p>
                                 </div>
                             </div>
                             <div class="flex flex-col gap-6">
@@ -100,22 +104,18 @@
                                     <div class="flex w-16 h-16 rounded-full shrink-0 overflow-hidden">
                                         <img src="assets/images/icons/Profile-logo.svg" class="w-full h-full object-cover" alt="profile">
                                     </div>
-                                    <div class="flex flex-col flex-1 rounded-3xl rounded-tl-[4px] p-6 gap-6 bg-patungan-bg-grey">
+                                    <div class="flex flex-col flex-1 rounded-3xl rounded-tl-[4px] p-6 gap-6 bg-ngetrip-bg-grey">
                                         <div class="message-text">
                                             <p class="font-semibold text-lg leading-8">
                                                 Hooray, the group quantity has been fulfilled. Please log in to the account with the following information
                                             </p>
                                             <br>
                                             <p class="font-semibold text-lg leading-8">
-                                                Netflix Email <br>
-                                                Email: Patungan@gmail.com <br>
-                                                Password: lebihhemat123! <br>
+                                                Netflix Email <br> Email: ngetrip@gmail.com <br> Password: lebihhemat123! <br>
                                             </p>
                                             <br>
                                             <p class="font-semibold text-lg leading-8">
-                                                Netflix User <br>
-                                                Name: Bimore Atreides <br>
-                                                PIN: 32222 <br>
+                                                Netflix User <br> Name: Bimore Atreides <br> PIN: 32222 <br>
                                             </p>
                                             <br>
                                             <p class="font-semibold text-lg leading-8">
@@ -123,42 +123,42 @@
                                             </p>
                                         </div>
 
-                                        <span class="time font-bold leading-5 text-patungan-grey">Today, 02:22 AM</span>
+                                        <span class="time font-bold leading-5 text-ngetrip-grey">Today, 02:22 AM</span>
                                     </div>
                                 </div>
                                 <div class="message-card flex gap-4">
                                     <div class="flex w-16 h-16 rounded-full shrink-0 overflow-hidden">
                                         <img src="assets/images/icons/Profile-logo.svg" class="w-full h-full object-cover" alt="profile">
                                     </div>
-                                    <div class="flex flex-col flex-1 rounded-3xl rounded-tl-[4px] p-6 gap-6 bg-patungan-bg-grey">
+                                    <div class="flex flex-col flex-1 rounded-3xl rounded-tl-[4px] p-6 gap-6 bg-ngetrip-bg-grey">
                                         <div class="message-text">
                                             <p class="font-semibold text-lg leading-8">
                                                 Pesanan Anda berhasil diverifikasi. Mohon menunggu hingga grup mencapai jumlah yang diperlukan sebelum kami mengirimkan akun yang Anda inginkan. Terima kasih atas kesabaran Anda! Jika ada kendala, kami akan segera menghubungi Anda.
                                             </p>
                                         </div>
 
-                                        <span class="time font-bold leading-5 text-patungan-grey">Yesterday, 12:22 AM</span>
+                                        <span class="time font-bold leading-5 text-ngetrip-grey">Yesterday, 12:22 AM</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div id="Success" class="flex flex-col rounded-[32px] p-8 gap-8 bg-white overflow-hidden">
-                            <div class="flex items-center justify-between rounded-3xl border border-patungan-border p-6 gap-6">
+                            <div class="flex items-center justify-between rounded-3xl border border-ngetrip-border p-6 gap-6">
                                 <div class="flex items-center gap-4">
                                     <div class="flex w-[62px] h-[62px] shrink-0 rounded-xl overflow-hidden">
                                         <img src="assets/images/logos/netflix.png" class="w-full h-full object-contain" alt="logo">
                                     </div>
                                     <div>
                                         <p class="font-bold text-xl leading-[25px]">Netflix</p>
-                                        <p class="text-patungan-grey">
+                                        <p class="text-ngetrip-grey">
                                             <span class="font-semibold text-xl leading-[25px]">Rp46.500</span>
                                             <span class="font-bold leading-5">/person</span>
                                         </p>
                                     </div>
                                 </div>
-                                <div class="flex items-center rounded-lg p-2 gap-1 bg-patungan-red/10">
-                                    <img src="assets/images/icons/clock-red.svg" class="w-6 flex shrink-0" alt="icon">
-                                    <p class="font-bold leading-5 text-patungan-red">1 month</p>
+                                <div class="flex items-center rounded-lg p-2 gap-1 bg-ngetrip-orange/10">
+                                    <img src="assets/images/icons/clock-orange.svg" class="w-6 flex shrink-0" alt="icon">
+                                    <p class="font-bold leading-5 text-ngetrip-orange">1 month</p>
                                 </div>
                             </div>
                             <div class="flex flex-col gap-6">
@@ -170,14 +170,14 @@
                                     <div class="flex w-16 h-16 rounded-full shrink-0 overflow-hidden">
                                         <img src="assets/images/icons/Profile-logo.svg" class="w-full h-full object-cover" alt="profile">
                                     </div>
-                                    <div class="flex flex-col flex-1 rounded-3xl rounded-tl-[4px] p-6 gap-6 bg-patungan-bg-grey">
+                                    <div class="flex flex-col flex-1 rounded-3xl rounded-tl-[4px] p-6 gap-6 bg-ngetrip-bg-grey">
                                         <div class="message-text">
                                             <p class="font-semibold text-lg leading-8">
                                                 Pesanan Anda berhasil diverifikasi. Mohon menunggu hingga grup mencapai jumlah yang diperlukan sebelum kami mengirimkan akun yang Anda inginkan. Terima kasih atas kesabaran Anda! Jika ada kendala, kami akan segera menghubungi Anda.
                                             </p>
                                         </div>
 
-                                        <span class="time font-bold leading-5 text-patungan-grey">Yesterday, 12:22 AM</span>
+                                        <span class="time font-bold leading-5 text-ngetrip-grey">Yesterday, 12:22 AM</span>
                                     </div>
                                 </div>
                             </div>
@@ -190,7 +190,7 @@
                                     <h2 class="font-bold text-xl leading-[25px]">Order Summary</h2>
                                     <p id="Badge" class="w-fit p-[12px_24px] rounded-full bg-[#3D7452] font-bold text-lg leading-[22px] text-white">Delivery</p>
                                 </div>
-                                <div class="flex flex-col justify-between rounded-3xl border border-patungan-border p-6 gap-6">
+                                <div class="flex flex-col justify-between rounded-3xl border border-ngetrip-border p-6 gap-6">
                                     <div class="flex items-center justify-between">
                                         <div class="flex items-center gap-4">
                                             <div class="flex w-[62px] h-[62px] shrink-0 rounded-xl overflow-hidden">
@@ -198,75 +198,75 @@
                                             </div>
                                             <div>
                                                 <p class="font-bold text-xl leading-[25px]">Netflix</p>
-                                                <p class="text-patungan-grey">
+                                                <p class="text-ngetrip-grey">
                                                     <span class="font-semibold text-xl leading-[25px]">Rp46.500</span>
                                                     <span class="font-bold leading-5">/person</span>
                                                 </p>
                                             </div>
                                         </div>
-                                        <div class="flex items-center rounded-lg p-2 gap-1 bg-patungan-red/10">
-                                            <img src="assets/images/icons/clock-red.svg" class="w-6 flex shrink-0" alt="icon">
-                                            <p class="font-bold leading-5 text-patungan-red">1 month</p>
+                                        <div class="flex items-center rounded-lg p-2 gap-1 bg-ngetrip-orange/10">
+                                            <img src="assets/images/icons/clock-orange.svg" class="w-6 flex shrink-0" alt="icon">
+                                            <p class="font-bold leading-5 text-ngetrip-orange">1 month</p>
                                         </div>
                                     </div>
                                     <div class="flex flex-col gap-4">
-                                        <hr class="border-patungan-border">
+                                        <hr class="border-ngetrip-border">
                                         <div class="flex items-center justify-between">
-                                            <p class="font-semibold text-lg leading-[22px] text-patungan-grey">Date</p>
+                                            <p class="font-semibold text-lg leading-[22px] text-ngetrip-grey">Date</p>
                                             <p class="font-bold text-xl leading-[25px]">Sun, 15 Sep 2024</p>
                                         </div>
                                         <div class="flex items-center justify-between">
-                                            <p class="font-semibold text-lg leading-[22px] text-patungan-grey">Original Price</p>
+                                            <p class="font-semibold text-lg leading-[22px] text-ngetrip-grey">Original Price</p>
                                             <p class="font-bold text-xl leading-[25px]">Rp186.000</p>
                                         </div>
                                         <div class="flex items-center justify-between">
-                                            <p class="font-semibold text-lg leading-[22px] text-patungan-grey">Harga Patungan</p>
+                                            <p class="font-semibold text-lg leading-[22px] text-ngetrip-grey">Harga ngetrip</p>
                                             <p class="font-bold text-xl leading-[25px]">Rp46.500</p>
                                         </div>
                                         <div class="flex items-center justify-between">
-                                            <p class="font-semibold text-lg leading-[22px] text-patungan-grey">Durasi</p>
+                                            <p class="font-semibold text-lg leading-[22px] text-ngetrip-grey">Durasi</p>
                                             <p class="font-bold text-xl leading-[25px]">1 Month</p>
                                         </div>
                                         <div class="flex items-center justify-between">
-                                            <p class="font-semibold text-lg leading-[22px] text-patungan-grey">Group Capacity</p>
+                                            <p class="font-semibold text-lg leading-[22px] text-ngetrip-grey">Group Capacity</p>
                                             <p class="font-bold text-xl leading-[25px]">4</p>
                                         </div>
                                         <div class="flex items-center justify-between">
-                                            <p class="font-semibold text-lg leading-[22px] text-patungan-grey">PPN 11%</p>
+                                            <p class="font-semibold text-lg leading-[22px] text-ngetrip-grey">PPN 11%</p>
                                             <p class="font-bold text-xl leading-[25px]">Rp10.000</p>
                                         </div>
                                         <div class="flex items-center justify-between">
-                                            <p class="font-semibold text-lg leading-[22px] text-patungan-grey">Total Price</p>
-                                            <p class="font-bold text-xl leading-[25px] text-patungan-red">Rp56.500</p>
+                                            <p class="font-semibold text-lg leading-[22px] text-ngetrip-grey">Total Price</p>
+                                            <p class="font-bold text-xl leading-[25px] text-ngetrip-orange">Rp56.500</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div id="Personal-Information" class="flex flex-col gap-5">
                                 <h2 class="font-bold text-xl leading-[25px]">Personal Informations</h2>
-                                <hr class="border-patungan-border">
+                                <hr class="border-ngetrip-border">
                                 <label class="flex flex-col gap-4">
-                                    <p class="font-bold text-xl leading-[25px] text-patungan-grey">Full Name</p>
-                                    <div class="flex items-center rounded-3xl border border-patungan-border p-6 gap-4 bg-patungan-bg-grey focus-within:border-patungan-orange transition-all duration-300">
+                                    <p class="font-bold text-xl leading-[25px] text-ngetrip-grey">Full Name</p>
+                                    <div class="flex items-center rounded-3xl border border-ngetrip-border p-6 gap-4 bg-ngetrip-bg-grey focus-within:border-ngetrip-orange transition-all duration-300">
                                         <img src="assets/images/icons/profile-circle-black.svg" class="w-6 h-6 flex shrink-0" alt="icon">
-                                        <div class="flex h-6 border border-patungan-border"></div>
-                                        <input type="text" value="Bimore Atreides" readonly class="appearance-none outline-none bg-patungan-bg-grey w-full font-bold text-xl leading-[25px] placeholder:text-patungan-black">
+                                        <div class="flex h-6 border border-ngetrip-border"></div>
+                                        <input type="text" value="Bimore Atreides" readonly class="appearance-none outline-none bg-ngetrip-bg-grey w-full font-bold text-xl leading-[25px] placeholder:text-ngetrip-black">
                                     </div>
                                 </label>
                                 <label class="flex flex-col gap-4">
-                                    <p class="font-bold text-xl leading-[25px] text-patungan-grey">WhatsApp Number</p>
-                                    <div class="flex items-center rounded-3xl border border-patungan-border p-6 gap-4 bg-patungan-bg-grey focus-within:border-patungan-orange transition-all duration-300">
+                                    <p class="font-bold text-xl leading-[25px] text-ngetrip-grey">WhatsApp Number</p>
+                                    <div class="flex items-center rounded-3xl border border-ngetrip-border p-6 gap-4 bg-ngetrip-bg-grey focus-within:border-ngetrip-orange transition-all duration-300">
                                         <img src="assets/images/icons/whatsapp-black.svg" class="w-6 h-6 flex shrink-0" alt="icon">
-                                        <div class="flex h-6 border border-patungan-border"></div>
-                                        <input type="tel" value="+6281292930923" readonly class="appearance-none outline-none bg-patungan-bg-grey w-full font-bold text-xl leading-[25px] placeholder:text-patungan-black">
+                                        <div class="flex h-6 border border-ngetrip-border"></div>
+                                        <input type="tel" value="+6281292930923" readonly class="appearance-none outline-none bg-ngetrip-bg-grey w-full font-bold text-xl leading-[25px] placeholder:text-ngetrip-black">
                                     </div>
                                 </label>
                                 <label class="flex flex-col gap-4">
-                                    <p class="font-bold text-xl leading-[25px] text-patungan-grey">Email Address</p>
-                                    <div class="flex items-center rounded-3xl border border-patungan-border p-6 gap-4 bg-patungan-bg-grey focus-within:border-patungan-orange transition-all duration-300">
+                                    <p class="font-bold text-xl leading-[25px] text-ngetrip-grey">Email Address</p>
+                                    <div class="flex items-center rounded-3xl border border-ngetrip-border p-6 gap-4 bg-ngetrip-bg-grey focus-within:border-ngetrip-orange transition-all duration-300">
                                         <img src="assets/images/icons/sms-black.svg" class="w-6 h-6 flex shrink-0" alt="icon">
-                                        <div class="flex h-6 border border-patungan-border"></div>
-                                        <input type="email" value="Bimore@Shaynakit.com" readonly class="appearance-none outline-none bg-patungan-bg-grey w-full font-bold text-xl leading-[25px] placeholder:text-patungan-black">
+                                        <div class="flex h-6 border border-ngetrip-border"></div>
+                                        <input type="email" value="Bimore@Shaynakit.com" readonly class="appearance-none outline-none bg-ngetrip-bg-grey w-full font-bold text-xl leading-[25px] placeholder:text-ngetrip-black">
                                     </div>
                                 </label>
                             </div>
@@ -274,75 +274,75 @@
                                 <h2 class="font-bold text-xl leading-[25px]">Transfer Informations</h2>
                                 <div class="group flex flex-col w-full rounded-3xl border border-[#F1F1F1] p-6 bg-white">
                                     <label class="flex items-center w-full justify-between h-10 overflow-hidden">
-                                        <img src="assets/images/logos/bca.svg" class="h-10 flex shrink-0 object-contain" alt="logo">
-                                        <input type="radio" name="payment-method" checked readonly class="appearance-none w-6 h-6 rounded-full mr-[2px] ring-[1.5px] ring-patungan-border checked:ring-patungan-orange border-4 border-white bg-white checked:bg-patungan-orange transition-all duration-300">
+                                        <img src="assets/images/logos/bca.svg" class="h-21 flex shrink-0 object-contain" alt="logo">
+                                        <input type="radio" name="payment-method" checked readonly class="appearance-none w-6 h-6 rounded-full mr-[2px] ring-[1.5px] ring-ngetrip-border checked:ring-ngetrip-orange border-4 border-white bg-white checked:bg-ngetrip-green transition-all duration-300">
                                     </label>
                                     <div class="content h-0 group-has-[:checked]:!h-[114px] transition-all duration-300 overflow-hidden">
-                                        <hr class="border-patungan-border my-4">
+                                        <hr class="border-ngetrip-border my-4">
                                         <div class="bank-details flex items-center justify-between">
                                             <div class="flex flex-col gap-[6px]">
-                                                <p class="font-semibold text-lg leading-[22px] text-patungan-grey">Transfer to</p>
+                                                <p class="font-semibold text-lg leading-[22px] text-ngetrip-grey">Transfer to</p>
                                                 <p class="Transfer-To font-bold text-xl leading-[25px]">1935 0009 1200</p>
-                                                <p class="font-semibold text-lg leading-[22px] text-patungan-grey">PT Seaccount Angga</p>
+                                                <p class="font-semibold text-lg leading-[22px] text-ngetrip-grey">PT Seaccount Angga</p>
                                             </div>
                                             <button type="button" class="copy-btn flex items-center gap-[6px]" onclick="copyTransferTo(this)">
-                                                <img src="assets/images/icons/copy-orange.svg" class="w-6 flex shrink-0" alt="icon">
-                                                <span class="font-semibold text-lg leading-[22px] text-patungan-orange">Copy</span>
+                                                <img src="assets/images/icons/copy-green.svg" class="w-6 flex shrink-0" alt="icon">
+                                                <span class="font-semibold text-lg leading-[22px] text-ngetrip-green">Copy</span>
                                             </button>
                                         </div>
                                     </div>
                                 </div>
                                 <label class="flex flex-col gap-4">
-                                    <p class="font-bold text-xl leading-[25px] text-patungan-grey">Bank Name</p>
-                                    <div class="flex items-center rounded-3xl border border-patungan-border p-6 gap-4 bg-patungan-bg-grey focus-within:border-patungan-orange transition-all duration-300">
+                                    <p class="font-bold text-xl leading-[25px] text-ngetrip-grey">Bank Name</p>
+                                    <div class="flex items-center rounded-3xl border border-ngetrip-border p-6 gap-4 bg-ngetrip-bg-grey focus-within:border-ngetrip-orange transition-all duration-300">
                                         <img src="assets/images/icons/bank-black.svg" class="w-6 h-6 flex shrink-0" alt="icon">
-                                        <div class="flex h-6 border border-patungan-border -mr-4"></div>
-                                        <select class="px-4 appearance-none outline-none bg-patungan-bg-grey w-full font-bold text-xl leading-[25px] placeholder:text-patungan-black pointer-events-none">
+                                        <div class="flex h-6 border border-ngetrip-border -mr-4"></div>
+                                        <select class="px-4 appearance-none outline-none bg-ngetrip-bg-grey w-full font-bold text-xl leading-[25px] placeholder:text-ngetrip-black pointer-events-none">
                                             <option value="" selected>Bank Syariah</option>
                                         </select>
                                     </div>
                                 </label>
                                 <label class="flex flex-col gap-4">
-                                    <p class="font-bold text-xl leading-[25px] text-patungan-grey">Bank Account Name</p>
-                                    <div class="flex items-center rounded-3xl border border-patungan-border p-6 gap-4 bg-patungan-bg-grey focus-within:border-patungan-orange transition-all duration-300">
+                                    <p class="font-bold text-xl leading-[25px] text-ngetrip-grey">Bank Account Name</p>
+                                    <div class="flex items-center rounded-3xl border border-ngetrip-border p-6 gap-4 bg-ngetrip-bg-grey focus-within:border-ngetrip-orange transition-all duration-300">
                                         <img src="assets/images/icons/user-octagon-black.svg" class="w-6 h-6 flex shrink-0" alt="icon">
-                                        <div class="flex h-6 border border-patungan-border"></div>
-                                        <input type="text" value="Shadam Bimo" readonly class="appearance-none outline-none bg-patungan-bg-grey w-full font-bold text-xl leading-[25px] placeholder:text-patungan-black" placeholder="Atas Nama Siapa?">
+                                        <div class="flex h-6 border border-ngetrip-border"></div>
+                                        <input type="text" value="Shadam Bimo" readonly class="appearance-none outline-none bg-ngetrip-bg-grey w-full font-bold text-xl leading-[25px] placeholder:text-ngetrip-black" placeholder="Atas Nama Siapa?">
                                     </div>
                                 </label>
                                 <label class="flex flex-col gap-4">
-                                    <p class="font-bold text-xl leading-[25px] text-patungan-grey">Bank Account Number</p>
-                                    <div class="flex items-center rounded-3xl border border-patungan-border p-6 gap-4 bg-patungan-bg-grey focus-within:border-patungan-orange transition-all duration-300">
+                                    <p class="font-bold text-xl leading-[25px] text-ngetrip-grey">Bank Account Number</p>
+                                    <div class="flex items-center rounded-3xl border border-ngetrip-border p-6 gap-4 bg-ngetrip-bg-grey focus-within:border-ngetrip-orange transition-all duration-300">
                                         <img src="assets/images/icons/blend-black.svg" class="w-6 h-6 flex shrink-0" alt="icon">
-                                        <div class="flex h-6 border border-patungan-border"></div>
-                                        <input type="text" value="5000 2000 3000" readonly class="appearance-none outline-none bg-patungan-bg-grey w-full font-bold text-xl leading-[25px] placeholder:text-patungan-black" pattern="[0-9 ]*" title="Only numbers and spaces are allowed" placeholder="Nomor Rekening Kamu?">
+                                        <div class="flex h-6 border border-ngetrip-border"></div>
+                                        <input type="text" value="5000 2000 3000" readonly class="appearance-none outline-none bg-ngetrip-bg-grey w-full font-bold text-xl leading-[25px] placeholder:text-ngetrip-black" pattern="[0-9 ]*" title="Only numbers and spaces are allowed" placeholder="Nomor Rekening Kamu?">
                                     </div>
                                 </label>
                             </div>
                             <div id="Payment-Proof" class="flex flex-col gap-4">
                                 <h2 class="font-bold text-xl leading-[25px]">Payment Proof</h2>
-                                <div class="relative flex items-center rounded-3xl border border-patungan-border p-6 gap-4 bg-patungan-bg-grey focus-within:border-patungan-orange transition-all duration-300">
+                                <div class="relative flex items-center rounded-3xl border border-ngetrip-border p-6 gap-4 bg-ngetrip-bg-grey focus-within:border-ngetrip-orange transition-all duration-300">
                                     <img src="assets/images/icons/gallery-import-black.svg" class="w-6 h-6 flex shrink-0" alt="icon">
-                                    <div class="flex h-6 border border-patungan-border"></div>
+                                    <div class="flex h-6 border border-ngetrip-border"></div>
                                     <p id="File-Name" class="w-full font-bold text-xl leading-[25px]">screenshot.png</p>
-                                    <a href="#" class="font-semibold text-lg leading-[22px] text-patungan-orange text-nowrap">View Image</a>
+                                    <a href="#" class="font-semibold text-lg leading-[22px] text-ngetrip-green text-nowrap">View Image</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div id="Member-Status" class="flex flex-col w-full max-w-[446px] rounded-[32px] overflow-hidden">
-                <div class="relative flex items-center text-center px-6 pt-8 pb-16 -mb-8 bg-[linear-gradient(113.19deg,#E25520_0%,#A83279_100.41%)] overflow-hidden">
+            <div id="Member-Status" class="flex flex-col w-full w-[670px] max-w-[446px] max-w-[670px] rounded-[32px] overflow-hidden">
+                <div class="relative flex items-center text-center px-6 pt-8 pb-16 mr-10 -mb-8 bg-[linear-gradient(113.19deg,#E25520_0%,#A83279_100.41%)] overflow-hidden">
                     <img src="assets/images/backgrounds/header-lines-bg-small.svg" class="absolute top-0 w-full h-full object-cover object-top" alt="background">
                     <div class="relative w-full">
                         <p class="font-semibold text-xl leading-[25px] text-[#E2B9BB]">Your Booking Code:</p>
-                        <p class="font-bold text-[32px] leading-10 text-white">Patungan2050</p>
+                        <p class="font-bold text-[32px] leading-10 text-gray">ngetrip2050</p>
                     </div>
                 </div>
-                <div class="relative flex flex-col rounded-[32px] p-8 gap-6 bg-white">
+                <div class="relative flex flex-col rounded-[32px] p-8 mr-10 gap-6 bg-white">
                     <h2 class="font-bold text-xl leading-[25px]">Group Member 2/4</h2>
-                    <hr class="border-patungan-border">
+                    <hr class="border-ngetrip-border">
                     <div class="flex flex-col gap-6">
                         <div class="flex items-center gap-4">
                             <div class="w-16 h-16 flex shrink-0 rounded-full overflow-hidden">
@@ -350,7 +350,7 @@
                             </div>
                             <div class="flex flex-col gap-[6px]">
                                 <p class="font-bold text-xl leading-[25px]">You</p>
-                                <p class="font-semibold text-lg leading-[22px] text-patungan-grey">Joined Sun,15 Sep 2024</p>
+                                <p class="font-semibold text-lg leading-[22px] text-ngetrip-grey">Joined Sun,15 Sep 2024</p>
                             </div>
                         </div>
                         <div class="flex items-center gap-4">
@@ -359,29 +359,30 @@
                             </div>
                             <div class="flex flex-col gap-[6px]">
                                 <p class="font-bold text-xl leading-[25px]">Udin Marudin</p>
-                                <p class="font-semibold text-lg leading-[22px] text-patungan-grey">Joined Sun,15 Sep 2024</p>
+                                <p class="font-semibold text-lg leading-[22px] text-ngetrip-grey">Joined Sun,15 Sep 2024</p>
                             </div>
                         </div>
                         <div class="flex items-center gap-4">
                             <div class="w-16 h-16 flex shrink-0 rounded-full overflow-hidden">
                                 <img src="assets/images/icons/waiting-member.svg" class="w-full h-full object-cover" alt="icon">
                             </div>
-                            <p class="font-semibold text-xl italic leading-[25px] text-patungan-grey">Waiting someone...</p>
+                            <p class="font-semibold text-xl italic leading-[25px] text-ngetrip-grey">Waiting someone...</p>
                         </div>
                         <div class="flex items-center gap-4">
                             <div class="w-16 h-16 flex shrink-0 rounded-full overflow-hidden">
                                 <img src="assets/images/icons/waiting-member.svg" class="w-full h-full object-cover" alt="icon">
                             </div>
-                            <p class="font-semibold text-xl italic leading-[25px] text-patungan-grey">Waiting someone...</p>
+                            <p class="font-semibold text-xl italic leading-[25px] text-ngetrip-grey">Waiting someone...</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </main>
-    
+
     <script src="js/nav-tab.js"></script>
     <script src="js/copy.js"></script>
     <script src="js/file-upload.js"></script>
 </body>
+
 </html>
