@@ -1,6 +1,9 @@
 .max-width{
     max-width: 1280px;
 }
+.p-100{
+    padding: 100px;
+}
 .hp-col-2{
     grid-template-columns: 1fr 1fr;
 }
