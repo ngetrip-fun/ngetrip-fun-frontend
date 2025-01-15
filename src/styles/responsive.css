@@ -57,7 +57,7 @@
         padding: unset;
     }
     .grid-four{
-        display: grid !important;
+        display: grid;
         grid-template-columns: 1fr 1fr;
     }
     .mob-grid-cols-1{
